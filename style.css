@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-top: 0px;
+}
+
+.site-nav{
+  margin-top: 10px;
+
+}
+
+.site-nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav li{
+  list-style: none;
+  float:left;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+.site-nav a{
+  display: inline-block;
+  background-color:  #FF8811;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #222222;
+  border-radius: 3px;
+  width: 100px;
+  height: auto;
+}
+
+.site-nav a:hover{
+  background-color:  #FFFFFF;
+  color: #333333;
+
+}
+
+body {
+  background-color: rgb(255,255,215);
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+#main {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  min-width: 600px;
+  max-width: 800px;
+
+}
+
+h1 {
+  color: rgb(20,20,20);
+  font-size: 42px;
+  font-weight: 600;
+  text-align: left;
+}
+
+h2 {
+  border: 1px dotted red;
+  color: red;
+  font-size: 14px;
+  line-height: 48px;
+  padding: 20px 30px;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+h3 {
+  color: red;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px 10px;
+  text-align:left;
+}
+
+p {
+
+  color: black;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 5px;
+  padding: 3px 3px;
+  text-align:left;
+}
+
+.share {
+  margin: 10px;
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: #883321;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
+
+.share img{
+
+}
+
+#banner {
+  background-color:  rgb(255, 220, 150);
+  height: 130px;
+  width: 100%;
+  border-bottom: 1px solid #956946;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+#banner .content h1 {
+  border: 3px solid rgb(105,20,10);
+  width: 200px;
+  background-color: #FF9933;
+  position: relative;
+  top:10px;
+  left: 10px;
+
+}
+
+
+
+
+
+.myphoto {
+  display: block;
+  background-color: rgb(255,255,180);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 120px;
+  width: 80px;
+  float: left;
+}
+
+.clear{
+  clear: both;
+}
+
+.float_img1{
+  width: 250px;
+  height: 250px;
+  float: right;
+}
+
+.float_img2{
+  width: 250px;
+  height: 250px;
+  float: right;
+}
+
+.float_img3{
+  width: 250px;
+  height: 250px;
+  float: right;
+}
+
+.float_img4{
+  width: 750px;
+  height: 450px;
+
+}
+.first_par{
+
+}
